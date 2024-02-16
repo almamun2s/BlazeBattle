@@ -19,6 +19,7 @@
     --border-color: #EDB8FF;
     --trophy-color: #ceb215;
     --greenish-color: #508f0e;
+    --profile-bg: #4609C3;
 
 
     --transition: all 0.3s ease;
@@ -70,7 +71,7 @@ img{
     color: var(--hover-color);
 }
 .bb-header-pp-btn {
-    border-radius: 1rem;
+    border-radius: 0.5rem;
     overflow: hidden;
 }
 .bb-header-pp-btn ul li a{
@@ -104,6 +105,8 @@ img{
     align-items: center;
     padding: 1rem;
     border: 1px solid var(--header-bg);
+    margin-bottom: 1rem;
+    border-radius: 0.5rem;
 }
 
 .bb-tournament-img{

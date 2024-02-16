@@ -1,0 +1,29 @@
+/* Profile Section */
+.bb-profile-inner{
+    width: 50%;
+    margin: auto;
+}
+.bb-profile-top{
+    border-radius: 1rem 1rem 0 0;
+    display: flex;
+    background-color: var(--profile-bg);
+    padding: 1rem;
+    margin-top: 2rem;
+    justify-content: space-between;
+ }
+.bb-profile-top-img{
+    width: 7.5rem;
+    height: 7.5rem;
+    border-radius: 50%;
+    overflow: hidden;
+ }
+ .bb-profile-details h4{
+    font-size: 2rem;
+    font-family: var(--ff-barlow);
+    color: #fff;
+ }
+ .bb-profile-details a{
+    text-decoration: none;
+    color: #00FADF;
+    font-family: var(--ff-oswald);
+ }
