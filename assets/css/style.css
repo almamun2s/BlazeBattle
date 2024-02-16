@@ -72,3 +72,15 @@ img{
     background-color: var(--hover-color);
     color: #fff;
 }
+
+/* =========== Header Section =========== */
+.bb-footer{
+    background-color: #080e37;
+    padding: 2rem 0;
+}
+.bb-footer p{
+    text-align: center;
+    font-family: var(--ff-barlow);
+    font-weight: 600;
+    color: #fff;
+}
