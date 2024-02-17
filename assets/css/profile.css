@@ -119,7 +119,7 @@
 }
 .bb-input{
     width: 48%;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.5rem!important;
 }
 .bb-input label{
     font-family: var(--ff-oswald);
