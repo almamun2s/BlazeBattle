@@ -134,24 +134,40 @@
     width: 30%;
     margin-bottom: 1rem;
     text-align: center;
+    border: 1px solid #ddd;
+    padding: 1rem;
 }
 .bb-team-member a{
     text-decoration: none;
     display: inline-block;
-    padding: 1rem;
     transition: var(--transition);
+    color: var(--profile-bg);
+    font-size: 1.5rem;
 }
 .bb-team-member a:hover{
-    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
-}
-.bb-team-member a:hover > h2{
     color: var(--hover-color);
 }
 .bb-team-member-img{
     border-radius: 50%;
     overflow: hidden;
+    width: 50%;
+    margin: auto;
 }
-.bb-team-member h2{
-    color: var(--profile-bg);
-    transition: var(--transition);
+.bb-team-member p{
+    color: #333;
+}
+
+
+/* remove member */
+.bb-remove-member, .bb-make-coleader{
+    background-color: var(--hover-color);
+    cursor: pointer;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border: none;
+    margin-bottom: 0.5rem;
+}
+.bb-make-coleader{
+    background-color: var(--profile-bg);
 }

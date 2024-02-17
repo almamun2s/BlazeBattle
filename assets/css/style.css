@@ -27,6 +27,9 @@
 body{
     background-color: var(--body-bg);
 }
+input{
+    outline: none;
+}
 img{
     max-width: 100%;
 }
