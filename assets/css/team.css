@@ -55,3 +55,103 @@
     font-family: var(--ff-barlow);
     font-size: 1.3rem;
 }
+
+
+/* single team */
+.bb-single-team-top{
+    padding: 1rem;
+}
+.bb-team-img{
+    width: 30%;
+    margin: auto;
+}
+.bb-single-team-top h2{
+    font-size: 2.5rem;
+    text-align: center;
+    font-family: var(--ff-oswald);
+}
+.bb-single-team-top p{
+    text-align: center;
+    font-family: var(--ff-barlow);
+    font-size: 1.3rem;
+}
+
+
+/* Joining a team */
+.bb-single-team-top form{
+    text-align: center;
+}
+.bb-single-team-top form input{
+    display: inline-block;
+    text-decoration: none;
+    background-color: var(--trophy-color);
+    color: #fff;
+    padding: 0.5rem 1rem;
+    font-size: 1.1rem;
+    border-radius: 0.5rem;
+    transition: var(--transition);
+    font-family: var(--ff-barlow);
+    text-transform: capitalize;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+.bb-single-team-top form input:hover{
+    background-color: var(--hover-color);
+}
+
+
+
+
+.bb-single-team-bottom{
+    border: 1px solid var(--border-color);
+    padding: 1rem;
+}
+.bb-single-team-bottom p{
+    font-size: 1.3rem;
+    font-family: var(--ff-barlow);
+    line-height: 2rem;
+    letter-spacing: 0.05rem;
+}
+.bb-single-team-bottom h3{
+    font-size: 2.3rem;
+    text-align: center;
+    font-family: var(--ff-barlow);
+    margin-top: 2rem;
+}
+
+
+/* Team members */
+.bb-team-members{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bb-team-member{
+    width: 30%;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+.bb-team-member a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 1rem;
+    transition: var(--transition);
+}
+.bb-team-member a:hover{
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+}
+.bb-team-member a:hover > h2{
+    color: var(--hover-color);
+}
+.bb-team-member-img{
+    border-radius: 50%;
+    overflow: hidden;
+}
+.bb-team-member h2{
+    color: var(--profile-bg);
+    transition: var(--transition);
+}
