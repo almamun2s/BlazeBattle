@@ -171,3 +171,10 @@
 .bb-make-coleader{
     background-color: var(--profile-bg);
 }
+
+
+/* Team Creation */
+.bb-team-creation{
+    width: 100%;
+    text-align: right;
+}

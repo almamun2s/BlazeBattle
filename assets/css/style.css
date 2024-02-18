@@ -30,6 +30,10 @@ body{
 input{
     outline: none;
 }
+textarea{
+    resize: none;
+    height: 6rem;
+}
 img{
     max-width: 100%;
 }
@@ -182,7 +186,8 @@ img{
     font-size: 2rem;
     color: #333;
 }
-.bb-tournament-prize a{
+
+.bb-first-btn{
     display: inline-block;
     text-decoration: none;
     background-color: var(--trophy-color);
@@ -194,6 +199,6 @@ img{
     font-family: var(--ff-oswald);
     text-transform: capitalize;
 }
-.bb-tournament-prize a:hover{
+.bb-first-btn:hover{
     background-color: var(--hover-color);
 }

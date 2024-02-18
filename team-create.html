@@ -7,6 +7,7 @@
     <link rel="shortcut icon" href="assets/img/logo.jpeg" type="image/x-icon">
     <link rel="stylesheet" href="assets/icon/css/all.min.css">
     <link rel="stylesheet" href="assets/css/profile.css">
+    <link rel="stylesheet" href="assets/css/re_login.css">
     <link rel="stylesheet" href="assets/css/team.css">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
@@ -40,53 +41,36 @@
         </div>
     </header>
 
-    <!-- ==================================== Tournament Section ====================================  -->
-    <section class="bb-tournament">
+    <!-- ==================================== Team Create Section ====================================  -->
+    <section class="bb-register-login">
         <div class="bb-container">
-            <div class="bb-tournament-inner">
-                <h2>All Tournaments</h2>
-                <div class="bb-tournament-single">
-                    <div class="bb-tournament-img">
-                        <img src="assets/img/freefire.webp" alt="">
+            <div class="bb-re-login-inner">
+                <h2>Make Your Team</h2>
+                <form action="#" method="post">
+                    <div class="bb-input">
+                        <label for="tname">Team Name:</label>
+                        <input type="text" name="fname" autocomplete="off" >
+                        <p class="bb-input-error">Team Name is required</p>
                     </div>
-                    <div class="bb-tournamet-description">
-                        <div class="bb-tournament-title">This is the title of Tournament</div>
-                        <div class="bb-tournament-date">
-                            <div class="bb-tournament-time-remain">
-                                <p><i class="fas fa-hourglass-start"></i> Starts in <span>10D</span> <span>2H</span> <span>22M</span></p>
-                            </div>
-                            <div class="bb-tournament-time-exact">
-                                <p><i class="fas fa-clock"></i> 12th March 2024, 10:00pm</p>
-                            </div>
-                        </div>
-                        <div class="bb-tournament-details">
-                            <div>
-                                <p>Entry/Player</p>
-                                <h4>Free</h4>
-                            </div>
-                            <div>
-                                <p>Team Size</p>
-                                <h4>Squad</h4>
-                            </div>
-                            <div>
-                                <p>Max temas</p>
-                                <h4>12</h4>
-                            </div>
-                            <div>
-                                <p>Enrolled</p>
-                                <h4>6</h4>
-                            </div>
-                        </div>
+                    <div class="bb-input">
+                        <label for="tname">Team Description:</label>
+                        <textarea name="team_description"></textarea>
                     </div>
-                    <div class="bb-tournament-prize">
-                        <p><i class="fas fa-trophy"></i> Prize</p>
-                        <h3>$200</h3>
-                        <a href="#" class="bb-first-btn">View Tournament</a>
+                    <div class="bb-input">
+                        <label for="file">Upload team photo</label>
+                        <input type="file" name="photo">
                     </div>
-                </div>
+
+                    <div class="bb-input">
+                        <input type="submit" name="submit" value="Sign Up" >
+                        <p>Already have an account? <a href="login.html">Login</a></p>
+                    </div>
+                    
+                </form>
             </div>
         </div>
     </section>
+
     <!-- ==================================== Footer Section ====================================  -->
     <footer class="bb-footer">
         <div class="bb-container">

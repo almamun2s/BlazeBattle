@@ -124,7 +124,8 @@
 .bb-input label{
     font-family: var(--ff-oswald);
 }
-.bb-input input{
+.bb-input input,
+.bb-input textarea{
     width: 100%;
     color: #252525;
     padding: 0.5rem;
@@ -145,6 +146,9 @@
     color: #fff;
     font-family: var(--ff-oswald);
     cursor: pointer;
+}
+.bb-input input[type=submit]:hover{
+    background-color: var(--hover-color);
 }
 
 /* Password change */
